@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gemini Voice Assistant</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 40px; }
+    textarea { width: 80%; height: 60px; }
+    button { padding: 10px 20px; margin: 10px; font-size: 16px; }
+    #response { margin-top: 20px; white-space: pre-wrap; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h1>Gemini Voice Assistant</h1>
+  <textarea id="promptInput" placeholder="Type or speak..."></textarea><br>
+  <button onclick="sendPrompt()">Send</button>
+  <button onclick="startVoice()">🎤 Speak</button>
+  <div id="response"></div>
+  <script src="script.js"></script>
+</body>
+</html>
