@@ -15,14 +15,8 @@ GeminiTalk is a real-time conversational AI voice assistant built using Google's
 - Node.js + Express
 - Google Generative AI (Gemini Pro)
 - Web APIs (Speech Recognition + Speech Synthesis)
+## 🗂️ Project Structure
 
-## 📁 Project Structure
-📦 geminitalk/
-├── index.html
-├── script.js
-├── gemini.js
-├── server.js
-├── .env
-├── README.md
-├── package.json
+
+
 
